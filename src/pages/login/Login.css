@@ -1,0 +1,11 @@
+.Input_Fields {
+    background-color: #fff;
+    border-radius: 36px 0 0 36px;
+    padding: 0;
+}
+.right-container {
+    float: right;
+}
+.form-control {
+    width: 50% !important;
+}

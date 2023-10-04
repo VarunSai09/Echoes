@@ -1,0 +1,28 @@
+.mainWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    /* Push the footer to the bottom */
+}
+main {
+    margin-top: auto;
+
+}
+#body-dashboard {
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#footer-block {
+    width: fit-content;
+}
+@media (max-width: 576px) {
+    #dashboard-content {
+        font-size: 6vh;
+
+    }
+}

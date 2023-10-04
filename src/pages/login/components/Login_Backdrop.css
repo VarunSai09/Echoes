@@ -1,0 +1,208 @@
+    /* body{
+        background-color: #94a684;
+    } */
+    .login-body{
+      background-color: #94a684;
+    }
+    .col-8{
+        background-color: #fff;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    #LeftContainer{
+        padding:20px 0 0 20px;
+        /* background-color: #94a684; */
+    }
+    .row{
+        height: 100vh;
+        margin: 0;
+    }
+
+    .Input_Fields{
+        background-color: #fff;
+        border-radius: 36px 0 0 36px;
+        padding: 0;
+    }
+    .Logo_Container{
+        display: flex;
+    }
+    #Logo{
+        width: 15vh;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        margin-bottom: 0;
+        max-height: 5%;
+        float: left;
+        vertical-align: middle;
+    
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .logo_desc{
+        color: #fff;
+        font-size: 4vh;
+        margin-top: 5vh;
+    }
+    .animation_design{
+        display: inline-block;
+    }
+    .design{
+        
+        width: 90%;
+        
+    }
+    .form-control{
+        width: 100% ;
+    }
+    .login-fields-box1{
+        position: relative;
+    }
+    .login-fields-box2{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin:0 auto !important;
+        padding: 0 !important;
+        width: 40% !important;
+    }
+    .checkbox-login{
+        margin:auto 0 1.5rem 0 !important;
+    }
+    #Login-Link{
+        font-size: 2vh;
+    }
+    #showPassword{
+      margin-left: 0 !important;
+    }
+    .mb-4 {
+      height: 40px !important;
+    }
+    .ErrorMessage{
+      color: red;
+    }    
+ /* Add a media query for screens smaller than a certain width */
+@media (max-width: 768px) {
+    /* Update body background color */
+    /* body {
+      background-color: #94a684;
+    } */
+  
+    /* Update container background color */
+    .col-8 {
+      background-color: #fff;
+    }
+  
+    /* Update container styles */
+    .container-fluid {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* Update LeftContainer styles */
+    #LeftContainer {
+      padding: 20px;
+      background-color: #94a684;
+    }
+  
+    /* Remove height restriction for rows */
+    .row {
+      height: auto;
+      margin: 0;
+    }
+  
+    /* Update Input_Fields styles */
+    .Input_Fields {
+      border-radius: 36px;
+    }
+  
+    /* Update Logo_Container styles */
+    .Logo_Container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Update Logo styles */
+    #Logo {
+      width: 30vh; /* Adjust the size */
+      max-height: 20%; /* Adjust the size */
+    }
+  
+    /* Update logo description styles */
+    .logo_desc {
+      color: #fff;
+      font-size: 3vh; /* Adjust the font size */
+      margin-top: 30%; /* Adjust the spacing */
+    }
+  
+    /* Update animation_design styles */
+    .animation_design {
+      display: inline-block;
+      width: 100%; /* Make it full-width */
+      margin-top: 20%;
+    }
+  
+    /* Update design styles */
+    .design {
+      width: 100%; /* Make it full-width */
+    }
+    
+    /* Update form-control styles */
+    .form-control {
+      width: 100%; /* Make it full-width */
+    }
+  
+    /* Update login-fields-box2 styles */
+    .login-fields-box2 {
+      position: static; /* Remove absolute positioning */
+      top: auto;
+      transform: none;
+      margin: auto auto !important; /* Center horizontally and add spacing */
+      padding: 2vh !important; /* Add padding */
+      width: 80% !important; /* Adjust the width */
+    }
+  
+    /* Update checkbox-login styles */
+    .checkbox-login {
+      margin: 1.5rem 0 !important; /* Adjust margin */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .logo_desc{
+      display: none;
+
+    }
+    .animation_design{
+      display: none;
+    }
+    .login-fields-box1{
+      height: 80vh !important;
+    }
+    .login-fields-box2 {
+      width: 100%  !important;
+    }
+    .Input_Fields {
+
+    }
+    body{
+      background: #94a684;
+    }
+    .mb-4{
+      margin-bottom: 1.3rem !important;
+    }
+    .col-sm-8{
+      width: 75% !important;
+      margin: auto;
+    }
+    .form-checks{
+      font-size: 80%;
+    }
+    .forgot-links{
+      font-size: 80%;
+    }
+  }

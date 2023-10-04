@@ -1,0 +1,51 @@
+AppBar {
+    position: static;
+}
+Container {
+    max-width: xl;
+    display: flex !important;
+}
+#Container-navbar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background: #94a684;
+}
+#Logo-Comp {}
+AdbIcon {
+    display: flex;
+    margin-right: 1rem;
+}
+.logo-image {
+    max-width: 8rem;
+    height: auto;
+    display: flex;
+}
+Typography {
+    margin-right: 2;
+    display: flex;
+    font: monospace;
+    fontweight: 700;
+    letterspacing: 0.3rem;
+    color: inherit;
+    textdecoration: none;
+}
+Box {
+    display: flex;
+    flex-grow: 1;
+}
+#Box-Navbar {
+    display: flex;
+}
+Menu {
+    display: block;
+}
+Button {
+    display: block;
+    color: whte;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+IconButton {
+    padding: 0;
+}
